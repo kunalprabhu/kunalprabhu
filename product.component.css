@@ -1,0 +1,8 @@
+.mycontainer
+{
+     display: flex;
+     flex-direction: row;
+      background-color: beige;
+      margin-top: 6%;
+      flex-wrap: wrap;
+}
