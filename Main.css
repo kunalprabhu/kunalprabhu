@@ -1,0 +1,125 @@
+body
+        {   
+             background-size:100% ;
+             background-attachment:fixed;
+             
+        }
+
+        .head{
+            font-size:0.9cm;
+            color: rgb(7, 7, 7);
+            font-family: 'Gill Sans', 'Gill Sans MT','Calibri', 'Trebuchet MS', sans-serif;
+        }
+        p.first
+        {text-align: left;
+             font-size: 0.5cm;
+             margin-left: 0.3cm;
+        }
+        p.second
+        {text-align: left;
+             font-size: 0.5cm;
+             margin-left: 0.3cm;
+             
+              
+        }   
+
+        div.div1
+        {
+            border-style: double;
+            background-color: ivory;
+            margin-right:5cm ;
+            font-size: 0.5cm;
+            width: 400px;
+            margin: 1cm;
+        }
+        div.div2
+        {
+            border-style: double;
+            background-color: ivory;
+            margin-left: 5cm;
+            font-size: 0.5cm;
+            width: 400px;
+            margin: 1cm;
+        }
+        
+        .tabel
+        {
+            border-style: double;
+            background-color: ivory;
+            margin-left: 2cm;
+            font-size: 0.5cm;
+        
+        }
+        
+        .mycontainer
+    {
+        display: flex;
+        background-color: rgb(253, 251, 255);
+        padding-right: 25px;
+        justify-content: center;
+    }
+    
+
+    .mycontainer > div
+
+    {
+        flex-direction: row;
+        width: 600px;
+        height: 200px;
+        padding-bottom:160px;
+        padding-left: 20px;
+        background-color: rgb(180, 180, 169);
+        margin: 1cm;
+        box-shadow: 1px 2px rgb(255, 0, 234);
+        border-style: double;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .cour
+    {
+        margin-top: 10%;
+       margin-left: 4cm;
+      
+      }
+.image
+{
+    transition: 2s;
+}
+.image:hover
+{
+    transform:translate(50px,80px);
+     
+}
+.image2
+{
+transition: 2s; 
+}
+.image2:hover
+{
+transform:translate(50px,80px) ;
+
+}
+.image3
+{
+transition:2s ;
+}
+.image3:hover
+{
+    transform: translate(50px,80px);
+}
+a
+{
+    padding-right: 40px;
+    font-size: 30px;
+    color: black;
+}
+    
+.bgimage
+{
+    opacity: 0.3;
+    margin-top:-20;
+}
+.mainclass
+{
+    margin-top:-1000px;
+    margin-bottom: -1000;
+}

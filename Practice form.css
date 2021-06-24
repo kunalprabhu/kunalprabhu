@@ -1,0 +1,114 @@
+
+body
+{
+    background-color: ghostwhite;
+    padding-left: 300px;
+    border-style:double solid;
+     max-width: 100%;
+     margin-left: 15ch; 
+     margin-right: 20ch;
+     padding-left:200px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+     
+}
+.h2
+{margin-left: 14ch ;
+text-decoration: underline;
+text-shadow:white;
+}
+
+
+input[type="text"]
+{
+    margin-top: 1ch;
+    border-radius:200px ;
+    border-width:5px;
+    height: 5ch;
+    padding-left: 3ch;
+    margin-right:2ch;
+}
+input[type="date"]
+{
+    margin-top: 1ch;
+    border-radius: 200px;
+    border-width:5px;
+    height: 5ch;
+    padding-left: 2ch;
+    margin-right: 30ch;
+}
+input[type="number"]
+{
+    border-radius: 200px;
+    border-width: 5px;
+    height: 5ch;
+    padding-left: 2ch;
+    margin-right: 3ch;  
+}
+input[type="email"]
+{
+    border-radius: 200px;
+    border-width: 5px;
+    height: 5ch;
+    padding-left: 2ch;
+    margin-right: 3ch;
+}
+input[type="tel"]
+{
+    border-radius: 200px;
+    border-width:5px;
+    height: 5ch;
+    padding-left: 2ch;
+    margin-top: 3ch;
+}
+.Gender
+{
+    margin-left: 0ch;
+    border-radius: 200px;
+    border-width:5px;
+    height: 5ch;
+    padding-left: 10px;
+    text-align:center;
+    width: 200px;
+}
+.Address
+{
+width: 200px;
+
+}
+.button1
+{
+ background-color: rgb(127, 91, 161);
+ margin-left:10ch ;
+ width: 200px;
+ height: 40px;
+ transition: background-color 1s;
+ transition: width 1s;
+}
+.button2
+{
+ background-color: rgb(69, 70, 117);
+ margin-left:10ch ;
+ width: 200px;
+ height: 40px;
+ transition:background-color 2s ;
+ transition: width 2s;
+}
+textarea
+{
+ border-style:solid;   
+ height: 200px;
+ width: 650px;
+border-width: 5px;
+
+}
+.button1:hover
+{
+    width: 300px;
+    background-color: grey;
+}
+.button2:hover
+{
+width: 300px;
+background-color: khaki;
+}
